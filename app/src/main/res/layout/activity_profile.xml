@@ -21,18 +21,18 @@
         android:text="Cerscei"
         android:gravity="center"/>
 
-    <RatingBar
-        android:id="@+id/ratingBar"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:gravity="center"
-        android:numStars="4"
-        android:padding="12dp" />
-
     <TextView
         android:id="@+id/bioPP"
+        android:padding="10dp"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="BIO KOMT HIER"
         android:gravity="center"/>
+
+    <RatingBar
+        android:id="@+id/ratingBar"
+        android:padding="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center_vertical" />
 </LinearLayout>
