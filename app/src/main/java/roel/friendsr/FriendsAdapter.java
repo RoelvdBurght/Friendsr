@@ -39,4 +39,3 @@ public class FriendsAdapter extends ArrayAdapter<Friend> {
         return convertView;
     }
 }
-
