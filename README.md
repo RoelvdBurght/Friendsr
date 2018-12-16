@@ -4,7 +4,7 @@ De rating wordt opgeslagen als je weg gaat van de vriend.
 
 
 
-![](doc/fren1.png)
+![](doc/fren1.png) 
 ![](doc/fren2.png)
 ![](doc/fren_land.png)
 ![](doc/fren_land2.png)
