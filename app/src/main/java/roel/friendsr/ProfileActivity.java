@@ -14,6 +14,7 @@ import org.w3c.dom.Text;
 
 public class ProfileActivity extends AppCompatActivity {
     private Friend thisFriend;
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
 
@@ -26,15 +27,15 @@ public class ProfileActivity extends AppCompatActivity {
         thisFriend = retrievedFriend;
         // sets the name and profile pic
         int profilePic = retrievedFriend.getDrawableId();
-        ImageView imageViewPf = (ImageView) findViewById(R.id.pfPP);
+        ImageView imageViewPf = (ImageView) findViewById(R.id.imageView);
         imageViewPf.setImageResource(profilePic);
 
         String name = retrievedFriend.getName();
-        TextView namePP = (TextView) findViewById(R.id.namePP);
+        TextView namePP = (TextView) findViewById(R.id.name);
         namePP.setText(retrievedFriend.getName());
 
         // sets the bio
-        TextView bio = (TextView) findViewById(R.id.bioPP);
+        TextView bio = (TextView) findViewById(R.id.bio);
         bio.setText(retrievedFriend.getBio());
 
         // set the previous score to the ratingbar, or if there is none
@@ -49,7 +50,7 @@ public class ProfileActivity extends AppCompatActivity {
             score = 0;
         }
 
-        RatingBar friendScore = (RatingBar) findViewById(R.id.ratingBar);
+        RatingBar friendScore = findViewById(R.id.rating);
         friendScore.setOnRatingBarChangeListener(new OnRatingBarChangeListener());
         friendScore.setRating(score);
     }
