@@ -1,8 +1,11 @@
-Klik op een plaatje om het profiel van die vriend te zien. 
-De rating die je iemand geeft blijft opgeslagen.
+Dit is mijn friendser app. De friends zijn cardviews die geinflate worden in de gridview.
+Op elke groote scherm worden 4 vrienden afgebeeld (zie vergelijking laatste screenshot).
+De rating wordt opgeslagen als je weg gaat van de vriend.
 
 
 
-![](doc/frn1.png)
+![](doc/fren1.png)
 ![](doc/fren2.png)
-![](doc/fren3.png)
+![](doc/fren_land.png)
+![](doc/fren_land2.png)
+![](doc/compare_fren.png)

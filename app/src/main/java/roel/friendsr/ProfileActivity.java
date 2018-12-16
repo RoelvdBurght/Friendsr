@@ -25,6 +25,7 @@ public class ProfileActivity extends AppCompatActivity {
         Intent intent = getIntent();
         Friend retrievedFriend = (Friend) intent.getSerializableExtra("clicked_friend");
         thisFriend = retrievedFriend;
+
         // sets the name and profile pic
         int profilePic = retrievedFriend.getDrawableId();
         ImageView imageViewPf = (ImageView) findViewById(R.id.imageView);
